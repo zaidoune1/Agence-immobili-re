@@ -1,0 +1,13 @@
+.bloc-section-home {
+    background-color: rgba(220, 220, 220, 0.26);
+    margin-top: 60px;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.singalCard {
+
+    padding: 15px;
+    border-radius: 30px;
+
+}

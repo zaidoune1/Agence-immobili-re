@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import ImgBody from './compounents/ImgBody';
+import Navigation from './compounents/NavBar';
+import Products from './Products';
+import { Routes, Route } from 'react-router-dom';
+import Apropos from './compounents/Apropos';
+import Error from './compounents/Error';
+import SingalApart from './compounents/SingalApart';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation/> 
+          <Routes>
+            <Route path='/' element= {<Products/>}>  </Route>
+            <Route path='/A-propos' element={<Apropos/>} ></Route>
+            <Route path='/SingalApart' element={<SingalApart/>} ></Route>
+            <Route path='*' element= {<Error/>}> </Route>
+          </Routes>
     </div>
   );
 }

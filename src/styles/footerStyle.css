@@ -1,0 +1,23 @@
+.footer-bloc {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.title-footer {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.bolc-text-footer {
+
+    font-size: 25px;
+    font-weight: 300;
+}

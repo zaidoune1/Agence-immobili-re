@@ -1,0 +1,29 @@
+.bloc-img {
+    background: url("../images//IMG.jpg");
+    border-radius: 25px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+}
+
+.back {
+    border-radius: 25px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.title {
+    z-index: 5;
+    font-size: 55px;
+    font-weight: 400;  
+}
+

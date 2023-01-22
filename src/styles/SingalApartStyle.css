@@ -1,0 +1,123 @@
+.action-btn {
+
+    background-color: #FF6060;
+    color: white;
+    border-radius: 10px;
+    margin-right: 8px;
+    border: none;
+    width: 120px;
+}
+
+.bloc-descritption-equimpement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 30px 0 50px;
+
+}
+
+.bloc-equimpement, .bloc-description {
+
+    width: 100%;
+    background-color: rgba(220, 220, 220, 0.26);
+    border-radius: 15px;
+    height: 450px;
+    color: #FF6060;
+    position: relative;
+
+}
+
+.bloc-equimpement {
+
+    line-height: 20px;
+
+}
+
+.bloc-description {
+    margin-right: 80px;
+    line-height: 40px;
+
+}
+
+.descrption-title, .equipment-title {
+
+    margin-bottom: 20px;
+    color: black;
+    background: #FF6060;
+    background-size: cover;
+    color: #fff;
+    height: 55px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.descriptino, .equipment {
+
+    padding: 20px;
+}
+
+.bloc-btn-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img-carousel {
+    width: 100%;
+    max-height: 415px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.bloc-host {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-host {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-left: 10px;
+}
+
+.gg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+}
+
+.no-apart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    color: #ff6060bb;
+}
+
+.return-home {
+    border: none;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF6060;
+}
+
+.return-home:hover {
+    color: #ff6060bb;
+}
+
